@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "308059570881",
+    "project_id": "react-native-chatting-ap-66cb5",
+    "storage_bucket": "react-native-chatting-ap-66cb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:308059570881:android:5b87286169c99739638a40",
+        "android_client_info": {
+          "package_name": "com.chattingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "308059570881-b1rrm5karh3h0dqnshathgrihkannghf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chattingapp",
+            "certificate_hash": "14ec56a59f8e545951cf6cb30a0278f78490af30"
+          }
+        },
+        {
+          "client_id": "308059570881-u166n7pn7kj323f49mgnbdu8g3h6fv3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqQY0vMcKC7HDeaAMPpZdsGTMLUkM-owg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "308059570881-u166n7pn7kj323f49mgnbdu8g3h6fv3r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "308059570881-4622sn8lnqn0usd8j6ckt2s58373nn6r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.chattingapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
