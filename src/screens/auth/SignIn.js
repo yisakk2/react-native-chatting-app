@@ -1,7 +1,9 @@
 import * as React from 'react'
-import { StyleSheet, View, Text } from 'react-native'
+import { StyleSheet, View, Text, Platform } from 'react-native'
 import { FirebaseContext } from '../../provider/FirebaseProvider'
-import { GoogleSignin, GoogleSigninButton, statusCodes } from '@react-native-google-signin/google-signin'
+import { GoogleSigninButton } from '@react-native-google-signin/google-signin'
+import { AppleButton } from '@invertase/react-native-apple-authentication';
+
 
 const SignIn = () => {
   const context = React.useContext(FirebaseContext)
@@ -11,6 +13,11 @@ const SignIn = () => {
       <GoogleSigninButton
         onPress={context.handleGoogleSignin}
       />
+      {/* {Platform.OS === 'ios' && 
+      <AppleButton 
+        buttonStyle={AppleButton.Style.BLACK}
+        buttonType={AppleButton.Type.SIGN_IN}
+      />} */}
     </View>
   )
 }
